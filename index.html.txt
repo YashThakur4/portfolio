@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sankalp Singh | Data Analyst</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+
+body{background:#0d0d14;color:#fff;}
+
+/* NAV */
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 60px;
+  background:#111;
+}
+nav h2{color:#9b7dff;}
+nav a{color:#ccc;text-decoration:none;margin-left:20px;}
+nav a:hover{color:#fff;}
+
+/* HERO */
+.hero{
+  height:90vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+.hero h1{
+  font-size:50px;
+  background:linear-gradient(90deg,#fff,#9b7dff);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.hero p{color:#aaa;max-width:600px;margin:20px 0;}
+
+.btn{
+  padding:10px 20px;
+  border:1px solid #9b7dff;
+  color:#9b7dff;
+  text-decoration:none;
+  border-radius:5px;
+}
+.btn:hover{background:#9b7dff;color:#fff;}
+
+/* SECTION */
+section{padding:60px 80px;}
+h2{margin-bottom:20px;color:#9b7dff;}
+
+/* SKILLS */
+.skills span{
+  display:inline-block;
+  background:#1c1b2e;
+  padding:8px 12px;
+  margin:5px;
+  border-radius:5px;
+}
+
+/* PROJECT */
+.project{
+  background:#1c1b2e;
+  padding:20px;
+  margin:15px 0;
+  border-radius:10px;
+}
+
+/* CONTACT */
+.contact a{
+  display:block;
+  color:#ccc;
+  margin:5px 0;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:#111;
+  color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <h2>Sankalp Singh</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Data Analyst & CSE Student</h1>
+  <p>
+    I transform raw data into meaningful insights using Power BI, SQL, Python, and analytics dashboards.
+  </p>
+  <a href="#projects" class="btn">View Projects</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Computer Science student at Lovely Professional University with strong skills in data analytics,
+    dashboard development, and database systems. Passionate about solving real-world problems using data.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills">
+    <span>C++</span>
+    <span>DSA</span>
+    <span>Python</span>
+    <span>NumPy</span>
+    <span>Pandas</span>
+    <span>Power BI</span>
+    <span>Tableau</span>
+    <span>Excel</span>
+    <span>MySQL</span>
+    <span>VS Code</span>
+    <span>Problem Solving</span>
+    <span>Time Management</span>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>📊 Market Segment Dashboard (2025)</h3>
+    <p>
+      Built interactive Power BI dashboards to analyze market trends and consumer behavior.
+      Developed 50+ DAX measures and used AI visuals for deep insights.
+    </p>
+    <p><b>Tech:</b> Power BI, DAX, NumPy, Pandas</p>
+  </div>
+
+  <div class="project">
+    <h3>🏥 Hospital Management System (2025)</h3>
+    <p>
+      Developed MySQL backend with CRUD operations and integrated with Python Tkinter.
+      Optimized queries and improved performance using indexing.
+    </p>
+    <p><b>Tech:</b> MySQL, Python, Tkinter</p>
+  </div>
+
+  <div class="project">
+    <h3>🚗 Car Rental System (2024)</h3>
+    <p>
+      Built an OOP-based system in C++ to manage cars, customers, and billing.
+      Implemented automatic price calculation and user-friendly interface.
+    </p>
+    <p><b>Tech:</b> C++ (OOP)</p>
+  </div>
+
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section>
+  <h2>Achievements</h2>
+  <ul>
+    <li>100+ problems solved on LeetCode (C++ & DSA)</li>
+    <li>HackerRank Contest Rating: 1403</li>
+  </ul>
+</section>
+
+<!-- EDUCATION -->
+<section>
+  <h2>Education</h2>
+  <p>B.Tech CSE — Lovely Professional University | CGPA: 6.91</p>
+  <p>Intermediate — 61%</p>
+  <p>Matriculation — 58%</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <a href="mailto:sankalpsingh352@gmail.com">📧 sankalpsingh352@gmail.com</a>
+  <a href="https://linkedin.com/in/sankalp-singh41">🔗 LinkedIn</a>
+  <a href="tel:+919044347191">📱 +91 9044347191</a>
+</section>
+
+<footer>
+  © 2026 Sankalp Singh | Portfolio
+</footer>
+
+</body>
+</html>
